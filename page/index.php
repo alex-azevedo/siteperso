@@ -17,7 +17,10 @@
 				<a href="index.html">A propos</a>
 			</li>
 			<li class="menu-comp">
-				<a href="competences.html">Compétences</a>
+				<?php
+      include 'competences.php';
+       ?>
+
 			</li>
 			<li class="menu-exp">
 				<a href="experience.html">Expériences professionnelles</a>
